@@ -1,13 +1,15 @@
 # Experimental Design Starbuck
 
 <br>
-<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200" text-align:center>
+<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
 <br>
 
 ### Table of Contents
 
 1. [Installation](#installation)
 2. [Project Description](#description)
+2.1. [Data](#data)
+
 3. [File Description](#files)
 4. [Results](#results)
 5. [Licensing, Authors, and Acknowledgements](#licensing)
@@ -17,7 +19,7 @@
 
 
 ## Project Description<a name="description"></a>
-### Data
+### Data<a name="data"></a>
 
 The datasets that were used in this project was originally provided by Starbucks as a take-home assignment for their job candidates. So it's a real Starbucks experiment.
 
