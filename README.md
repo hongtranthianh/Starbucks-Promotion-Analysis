@@ -1,7 +1,7 @@
 # Experimental Design Starbuck
 
 <br>
-<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="200" height="200">
+<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="300" height="200">
 <br>
 
 ### Table of Contents
