@@ -46,13 +46,13 @@ Response Rate and Net Incremental Revenue.
 
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
-$$ IRR = \frac{#_Treatment_Purchasers}{#_Treatment_Customers} - \frac{#_Control_Purchasers}{#_Control_Customers} $$
+$$ IRR = \frac{Total_Treatment_Purchasers}{Total_Treatment_Customers} - \frac{Total_Control_Purchasers}{Total_Control_Customers} $$
 
 - **Net Incremental Revenue (NIR)**
 
 NIR depicts how much is made (or lost) by sending out the promotion
 
-$$ NIR = (10\cdot #_Treatment_Purchasers - 0.15 \cdot #_Treatment_Customers) - 10 \cdot #_Control_Purchasers$$
+$$ NIR = (10\cdot Total_Treatment_Purchasers - 0.15 \cdot Total_Treatment_Customers) - 10 \cdot Total_Control_Purchasers$$
 
 ### Deliverables
 
