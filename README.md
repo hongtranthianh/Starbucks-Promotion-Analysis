@@ -8,7 +8,10 @@
 
 1. [Installation](#installation)
 2. [Project Description](#description)
-2.1. [Data](#data)
+
+    - [Data](#data)
+    - [Objective of the project](#objective)
+    - [Deliverables](#deliverables)
 
 3. [File Description](#files)
 4. [Results](#results)
@@ -18,8 +21,8 @@
 
 
 
-## Project Description<a name="description"></a>
-### Data<a name="data"></a>
+## Project Description <a name="description"></a>
+### Data <a name="data"></a>
 
 The datasets that were used in this project was originally provided by Starbucks as a take-home assignment for their job candidates. So it's a real Starbucks experiment.
 
@@ -31,7 +34,7 @@ In the experiment simulated by the data, an advertising promotion was tested to 
 
 Each data point includes one column indicating whether or not an individual was sent a promotion for the product, and one column indicating whether or not that individual eventually purchased that product. Each individual also has seven additional features associated with them, which are provided abstractly as V1-V7.
 
-### Objective of the project
+### Objective of the project <a name="objective"></a>
 
 1. Analyze the results of the experiment and identify the effect of the Treatment on
 product purchase and Net Incremental Revenue
@@ -58,7 +61,7 @@ NIR depicts how much is made (or lost) by sending out the promotion
 $$ NIR = (10\cdot purchasers_{treatment} - 0.15 \cdot customers_{treatment}) - 10 \cdot purchasers_{control}$$
 
 
-### Deliverables
+### Deliverables <a name="deliverables"></a>
 
 1. Score the ‘Test.csv’ using the model and select the best customers and share the
 customer ID’s as csv file
