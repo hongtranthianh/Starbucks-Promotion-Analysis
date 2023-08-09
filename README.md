@@ -1,7 +1,7 @@
 # Experimental Design Starbuck
 
 <br>
-<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="300" height="200">
+<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
 <br>
 
 ### Table of Contents
@@ -37,15 +37,22 @@ product purchase and Net Incremental Revenue
 Response Rate and Net Incremental Revenue.
 
 **Note**:
-- Incremental Response Rate (IRR)
+
+- **Treatment group**: the group in which customers were sent out promotion
+
+- **Control group**: the group in which customers were NOT sent out promotion
+
+- **Incremental Response Rate (IRR)**
+
 IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
 
-    $$ IRR = \frac{Number_of_Purchasers_{Treatement}}{Total_Customers_{Treatement}} - \frac{Number_of_Purchasers_{Control}}{Total_Customers_{Control}} $$
+    $$ IRR = \frac{#_Treatment_Purchasers}{#_Treatment_Customers} - \frac{#_Control_Purchasers}{#_Control_Customers} $$
 
-- Net Incremental Revenue (NIR)
+- **Net Incremental Revenue (NIR)**
+
 NIR depicts how much is made (or lost) by sending out the promotion
 
-    $$ NIR = (10\cdot purch_{treat} - 0.15 \cdot cust_{treat}) - 10 \cdot purch_{ctrl}$$
+    $$ NIR = (10\cdot #_Treatment_Purchasers - 0.15 \cdot #_Treatment_Customers) - 10 \cdot #_Control_Purchasers$$
 
 ### Deliverables
 
