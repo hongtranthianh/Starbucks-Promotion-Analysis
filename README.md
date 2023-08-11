@@ -11,7 +11,6 @@
 1. [Installation](#installation)
 2. [Project Description](#project-description)
     - [Background information](#background-info)
-    - [Data](#data)
     - [Objectives](#objective)
 3. [File Structure](#files)
 4. [How to interact](#interact)
@@ -35,7 +34,7 @@ Starbucks had a promotion program and wanted to test if this program would bring
     + `Control group`: customers were NOT received promotion
 - Observe customer behavior in `Treatment group` against `Control group`, test if there's any positive effect of desirable metrics on `Treatment group` and decide to launch the promotion program.
 
-### 1.3. Objectives <a name="objective"></a>
+### 1.2. Objectives <a name="objective"></a>
 
 1. Analyze the effect of the promotion program on two metrics `Incremental Response Rate (IRR)` and `Net Incremental Revenue (NIR)`.
 2. Build a classification model to select best customers for the promotion program in a way that maximizes `IRR` and `NIR`.
