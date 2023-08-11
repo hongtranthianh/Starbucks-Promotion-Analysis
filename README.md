@@ -42,10 +42,26 @@ Starbucks had a promotion program and wanted to test if this program would bring
 
 ## 2. File Structure<a name="files"></a>
 
+```
+- .starbucks_env # virtual env to run the project
 
+- data
+|- test.csv  # testing data to process 
+|- training.csv  # training data to process
+
+- 1. data_understanding.ipynb # get to know the data
+
+- 2. hypothesis_testing.ipynb # for objective 1: analyze the effect of promotion on IRR and NIR
+
+- 3. modeling.ipynb # for objective 2: build a model to select what customers should receive promotion
+
+- test_results.py # functions to test the promotion strategy with IRR and NIR
+
+- README.md
+
+```
 
 ## 3. How to interact<a name="interact"></a>
-
 
 
 ## 4. Licensing, Authors, and Acknowledgements<a name="licensing"></a>
