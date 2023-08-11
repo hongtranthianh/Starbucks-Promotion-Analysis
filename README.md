@@ -2,7 +2,11 @@
 
 <br>
 <div align="center">
+<<<<<<< HEAD
 <img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
+=======
+    <img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
+>>>>>>> 41788f443c3be92c3a6f8f8f24b249d6f63a2a61
 </div>
 <br>
 
