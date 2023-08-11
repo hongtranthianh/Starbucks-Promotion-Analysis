@@ -37,25 +37,26 @@ Starbucks had a promotion program and wanted to test if this program would bring
 
 ### 1.3. Objectives <a name="objective"></a>
 
-1. Analyze the effect of the promotion program on two metrics `Incremental Response Rate (IRR)` and `Net Incremental Revenue (NIR)`: [2. hypothesis_testing.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/2.%20hypothesis_testing.ipynb)
-2. Build a classification model to select best customers for the promotion program in a way that maximizes `IRR` and `NIR`: [3. modeling.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/3.%20modeling.ipynb)
-
+1. Analyze the effect of the promotion program on two metrics `Incremental Response Rate (IRR)` and `Net Incremental Revenue (NIR)`.
+2. Build a classification model to select best customers for the promotion program in a way that maximizes `IRR` and `NIR`.
 ## 2. File Structure<a name="files"></a>
 
 ```
-- .starbucks_env # virtual env to run the project
+- .starbucks_env #Virtual env to run the project
 
 - data
-|- test.csv  # testing data to process 
-|- training.csv  # training data to process
+|- test.csv  #Testing data
+|- training.csv  # Training data
 
-- 1. data_understanding.ipynb # get to know the data
+- images #Images used in README.md
 
-- 2. hypothesis_testing.ipynb # for objective 1: analyze the effect of promotion on IRR and NIR
+- 1. data_understanding.ipynb #Get to know the data
 
-- 3. modeling.ipynb # for objective 2: build a model to select what customers should receive promotion
+- 2. hypothesis_testing.ipynb #For objective 1-analyze the effect of promotion on IRR and NIR
 
-- test_results.py # functions to test the promotion strategy with IRR and NIR
+- 3. modeling.ipynb #For objective 2-build a model to select what customers should receive promotion
+
+- test_results.py #Functions to test the promotion strategy with IRR and NIR
 
 - README.md
 
@@ -63,20 +64,30 @@ Starbucks had a promotion program and wanted to test if this program would bring
 
 ## 3. How to interact<a name="interact"></a>
 
-* **Step 1**: Pull this repository to your local machine
+**Step 1**: Pull this repository to your local machine
 ```
 git clone https://github.com/hongtranthianh/Starbucks-Promotion-Analysis.git
 ```
 
+<p ><img src="images/clone-repo.png" alt="image" ></p>
 
-* **Step 2** (Optional): Activate the virtual environment used in this project
+**Step 2** (Optional): Activate the virtual environment used in this project (*you can also use your own environment instead*).
 
 In Windows:
+
+```
+cd Starbucks-Promotion-Analysis
+```
+
 ```
 .starbucks_env\Scripts\activate
 ```
 
-* **Step 3**: Find below notebooks for specific purpose
+<p ><img src="images/cd-and-activate-venv.png" alt="image" ></p>
+
+**Step 3**: Execute [test_results.py](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/test_results.py)
+
+**Step 4**: Find below notebooks for specific purpose
     - Get to know the data: [1. data_understanding.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/1.%20data_understanding.ipynb)
 
     - Analyze the effect of the promotion program on two metrics `IRR` and `NIR`: [2. hypothesis_testing.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/2.%20hypothesis_testing.ipynb)
