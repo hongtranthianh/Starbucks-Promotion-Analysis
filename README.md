@@ -1,21 +1,26 @@
 # Starbucks Promotion Analysis
 
 <br>
+<div align="center">
 <img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
+</div>
 <br>
 
 ### Table of Contents
 
-1. [Project Description](#project-description)
+1. [Installation](#installation)
+2. [Project Description](#project-description)
     - [Background information](#background-info)
     - [Data](#data)
     - [Objectives](#objective)
+3. [File Structure](#files)
+4. [How to interact](#interact)
+5. [Licensing, Authors, and Acknowledgements](#licensing)
 
-2. [File Structure](#files)
-3. [How to interact](#interact)
-4. [Licensing, Authors, and Acknowledgements](#licensing)
 
-
+## 1. Installation <a name="installation"></a>
+* The virtual environment [.starbucks_env]() contains all Python packages to run all notebooks and `.py` file.
+* The code should run with no issues using Python versions 3.*. Currently using `Python 3.11.3` on `Windowns 11`.
 
 ## 1. Project Description <a name="project-description"></a>
 
