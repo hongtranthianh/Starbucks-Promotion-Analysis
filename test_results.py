@@ -23,5 +23,5 @@ def test_results(promotion_strategy):
     print()
     print('Your nir with this strategy is {:0.2f}.'.format(nir))
     
-    print("We came up with a model with an irr of {} and an nir of {} on the test set.\n\n How did you do?".format(0.0188, 189.45))
-    return irr, nir
+    print("We came up with a model with an irr of {:0.4f} and an nir of {:0.2f} on the test set.".format(irr, nir))
+    # return irr, nir
