@@ -1,4 +1,4 @@
-# Experimental Design Starbuck
+# Starbucks Promotion Analysis
 
 <br>
 <img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
@@ -6,23 +6,22 @@
 
 ### Table of Contents
 
-1. [Installation](#installation)
-2. [Project Description](#description)
-
+1. [Project Description](#project-description)
+    - [Background information](#background-info)
     - [Data](#data)
-    - [Objective of the project](#objective)
-    - [Deliverables](#deliverables)
+    - [Objectives](#objective)
 
-3. [File Description](#files)
-4. [Results](#results)
-5. [Licensing, Authors, and Acknowledgements](#licensing)
-
-## Installation <a name="installation"></a>
+2. [File Structure](#files)
+3. [How to interact](#interact)
+4. [Licensing, Authors, and Acknowledgements](#licensing)
 
 
 
-## Project Description <a name="description"></a>
-### Data <a name="data"></a>
+## 1. Project Description <a name="project-description"></a>
+
+### 1.1. Background information <a name="background-info"></a>
+
+### 1.2. Data <a name="data"></a>
 
 The datasets that were used in this project was originally provided by Starbucks as a take-home assignment for their job candidates. So it's a real Starbucks experiment.
 
@@ -34,12 +33,11 @@ In the experiment simulated by the data, an advertising promotion was tested to 
 
 Each data point includes one column indicating whether or not an individual was sent a promotion for the product, and one column indicating whether or not that individual eventually purchased that product. Each individual also has seven additional features associated with them, which are provided abstractly as V1-V7.
 
-### Objective of the project <a name="objective"></a>
+### 1.3. Objectives <a name="objective"></a>
 
-1. Analyze the results of the experiment and identify the effect of the Treatment on
-product purchase and Net Incremental Revenue
-2. Build a model to select the best customers to target that maximizes the Incremental
-Response Rate and Net Incremental Revenue.
+1. Use the training data to understand what patterns in V1-V7 indicate that a promotion should be provided to a user
+2. Calculate Incremental Response Rate (IRR) and Net Incremental Revenue (NIR)
+3. Build a model to select the best customers to target that maximizes the `IRR (Incremental Response Rate)` and `NIR (Net Incremental Revenue)`.
 
 **Note**:
 
@@ -47,35 +45,14 @@ Response Rate and Net Incremental Revenue.
 
 - **Control group**: the group in which customers were NOT sent out promotion
 
-- **Incremental Response Rate (IRR)**
 
-IRR depicts how many more customers purchased the product with the promotion, as compared to if they didn't receive the promotion.
-
-$$ IRR = \frac{purchasers_{treatment}}{customers_{treatment}} - \frac{purchasers_{control}}{customers_{control}} $$
-
-
-- **Net Incremental Revenue (NIR)**
-
-NIR depicts how much is made (or lost) by sending out the promotion
-
-$$ NIR = (10\cdot purchasers_{treatment} - 0.15 \cdot customers_{treatment}) - 10 \cdot purchasers_{control}$$
-
-
-### Deliverables <a name="deliverables"></a>
-
-1. Score the ‘Test.csv’ using the model and select the best customers and share the
-customer ID’s as csv file
-2. Explain briefly the approach used in a separate document and also share the code that
-can be executed to reproduce results.
-
-## File Description<a name="files"></a>
+## 2. File Structure<a name="files"></a>
 
 
 
-## Results<a name="results"></a>
+## 3. How to interact<a name="interact"></a>
 
-The main findings of the code can be found at the post available [here]()
 
-## Licensing, Authors, and Acknowledgements<a name="licensing"></a>
 
-Feel free to use the code here as you would like.
+## 4. Licensing, Authors, and Acknowledgements<a name="licensing"></a>
+
