@@ -37,8 +37,8 @@ Starbucks had a promotion program and wanted to test if this program would bring
 
 ### 1.3. Objectives <a name="objective"></a>
 
-1. Analyze the effect of the promotion program on two metrics: `Incremental Response Rate (IRR)` and `Net Incremental Revenue (NIR)`.
-2. Build a classification model to select best customers for the promotion program in a way that maximizes `IRR` and `NIR`.
+1. Analyze the effect of the promotion program on two metrics `Incremental Response Rate (IRR)` and `Net Incremental Revenue (NIR)`: [2. hypothesis_testing.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/2.%20hypothesis_testing.ipynb)
+2. Build a classification model to select best customers for the promotion program in a way that maximizes `IRR` and `NIR`: [3. modeling.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/3.%20modeling.ipynb)
 
 ## 2. File Structure<a name="files"></a>
 
@@ -63,6 +63,25 @@ Starbucks had a promotion program and wanted to test if this program would bring
 
 ## 3. How to interact<a name="interact"></a>
 
+* **Step 1**: Pull this repository to your local machine
+```
+git clone https://github.com/hongtranthianh/Starbucks-Promotion-Analysis.git
+```
+
+
+* **Step 2** (Optional): Activate the virtual environment used in this project
+
+In Windows:
+```
+.starbucks_env\Scripts\activate
+```
+
+* **Step 3**: Find below notebooks for specific purpose
+    - Get to know the data: [1. data_understanding.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/1.%20data_understanding.ipynb)
+
+    - Analyze the effect of the promotion program on two metrics `IRR` and `NIR`: [2. hypothesis_testing.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/2.%20hypothesis_testing.ipynb)
+    
+    - Build a classifier to select which customer should receive the promotion and test the promotion strategy: [3. modeling.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/3.%20modeling.ipynb)
 
 ## 4. Licensing, Authors, and Acknowledgements<a name="licensing"></a>
 
