@@ -1,7 +1,9 @@
 # Starbucks Promotion Analysis
 
 <br>
-<img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
+<div align="center">
+    <img src="https://opj.ca/wp-content/uploads/2018/02/New-Starbucks-Logo-1200x969.jpg" width="250" height="200">
+</div>
 <br>
 
 ### Table of Contents
