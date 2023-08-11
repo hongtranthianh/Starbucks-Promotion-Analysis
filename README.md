@@ -88,13 +88,15 @@ cd Starbucks-Promotion-Analysis
 **Step 3**: Execute [test_results.py](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/test_results.py)
 
 **Step 4**: Find below notebooks for specific purpose
-    - Get to know the data: [1. data_understanding.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/1.%20data_understanding.ipynb)
 
-    - Analyze the effect of the promotion program on two metrics `IRR` and `NIR`: [2. hypothesis_testing.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/2.%20hypothesis_testing.ipynb)
+- Get to know the data: [1. data_understanding.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/1.%20data_understanding.ipynb)
+
+- Analyze the effect of the promotion program on two metrics `IRR` and `NIR`: [2. hypothesis_testing.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/2.%20hypothesis_testing.ipynb)
     
-    - Build a classifier to select which customer should receive the promotion and test the promotion strategy: [3. modeling.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/3.%20modeling.ipynb)
+- Build a classifier to select which customer should receive the promotion and test the promotion strategy: [3. modeling.ipynb](https://github.com/hongtranthianh/Starbucks-Promotion-Analysis/blob/main/3.%20modeling.ipynb)
 
 ## 4. Licensing, Authors, and Acknowledgements<a name="licensing"></a>
 
-Udacity for providing such a complete Data Science Nanodegree Program
-Starbucks for providing the datasets
+This project is part of the Data Scientist Nanodegree program from Udacity, under module *Experimental Design*.
+
+Thanks Udacity for providing a guideline for this project and thanks Starbucks for providing the datasets.
