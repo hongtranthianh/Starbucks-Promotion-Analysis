@@ -24,7 +24,7 @@
 ## 2. Project Description <a name="project-description"></a>
 
 ### 2.1. Background information <a name="background-info"></a>
---This project is a real experiment from Starbucks and provided as a take-home assignment for their job candidates. For a full description of what Starbucks provides to candidates see the [instructions available here](https://drive.google.com/file/d/18klca9Sef1Rs6q8DW4l7o349r8B70qXM/view).--
+<!---This project is a real experiment from Starbucks and provided as a take-home assignment for their job candidates. For a full description of what Starbucks provides to candidates see the [instructions available here](https://drive.google.com/file/d/18klca9Sef1Rs6q8DW4l7o349r8B70qXM/view).-->
 
 Starbucks had a promotion program and wanted to test if this program would bring more customers to purchase a specific product priced at $10. Since it costs the company 0.15 to send out each promotion, Starbucks needed to limit that promotion to only those that had the likelihood to purchase.
 
